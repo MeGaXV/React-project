@@ -840,4 +840,83 @@
   white-space: nowrap;
 }
 
+.signUpTitle{
+  color: var(--black);
+  font-family: Poppins;
+  align-self: center;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height:normal;
+  min-height: 81px;
+}
+.signUpCard {
+  align-items: center;
+  background-color: var(--white);
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  min-height: 791px;
+  padding: 37px 0;
+  position: relative;
+  width: 601px;
+}
+
+.signUpInputFields {
+  align-items: flex-start;
+  
+}
+
+.signUpFirstName {
+  background-color: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 24px;
+  display: flex;
+  height: 47px;
+  min-width: 474px;
+  padding: 0 25px;
+  color: #000000;
+  font-family: Poppins;
+  font-size: var(--font-size-m);
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 50px;
+  margin-top: -2.5px;
+  min-height: 33px;
+  opacity: 0.58;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+.signUpFirstName:focus{
+  outline-style: initial;
+  border-color: #000000;
+  
+}
+
+.divider{
+  width: 175px;
+  height: auto;
+  display: inline-block;
+}
+
+.signUpAction {
+  align-items: flex-end;
+  background-color: #4042e2;
+  border-radius: 22px;
+  height: 43px;
+  justify-content: flex-end;
+  min-width: 122px;
+  padding: 1px 21px;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: medium;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 20px;
+  min-height: 30px;
+  min-width: 78px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  right:40%;
+}
 
